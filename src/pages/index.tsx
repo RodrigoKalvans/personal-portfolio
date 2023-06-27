@@ -29,7 +29,7 @@ export default function Home() {
     
     <article>
       <b>Introduction</b>
-      <p>Hi, my name is Rodrigo Kalvans. I am a third-year Software Engineering student at Saxion University in Deventer, Netherlands. Currently I'm working as a developer at a company called Heartland Finance in Amsterdam.</p>
+      <p>Hi, my name is Rodrigo Kalvans. I am a third-year Software Engineering student at Saxion University in Deventer, Netherlands. Currently I&apos;m working as a developer at a company called Heartland Finance in Amsterdam.</p>
       <p>My hobbies include travel, playing billiards and cooking exotic meals!</p>
       <p>Professionally, I mostly work on full-stack web applications. Aside from my company I also work on freelance projects in my spare time. If there is something you would like to collaborate on - send me a message! You can find my contacts below.</p>
     </article>
