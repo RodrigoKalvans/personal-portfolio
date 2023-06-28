@@ -40,7 +40,7 @@ export default function Home() {
         <Project title="TCorvus" url="https://main.d12aaacbrok4tp.amplifyapp.com/">
           Social media platform built using NextJS and MongoDB. Key features include payments, authentication, account management, automated email notifications and image uploads to S3.
         </Project>
-        <Project title="personal-portfolio" url="xxx">
+        <Project title="personal-portfolio" url="https://fascinating-llama-8e5d96.netlify.app/">
           Simplistic personal site built with NextJS.
         </Project>
       </div>
