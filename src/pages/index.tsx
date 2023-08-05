@@ -4,6 +4,14 @@ import Head from "next/head"
 import Image from "next/image"
 
 import {
+  TCORVUS,
+  PORTFOLIO,
+  GITHUB,
+  LINKEDIN,
+  EMAIL,
+} from "@/utils/const";
+
+import {
   AiOutlineMail as Email,
   AiFillLinkedin as LinkedIn,
   AiFillGithub as GitHub,
@@ -30,17 +38,17 @@ export default function Home() {
     <article>
       <b>Introduction</b>
       <p>Hi, my name is Rodrigo Kalvans. I am a third-year Software Engineering student at Saxion University in Deventer, Netherlands. Currently I&apos;m working as a developer at a company called Heartland Finance in Amsterdam.</p>
-      <p>My hobbies include travel, playing billiards and cooking exotic meals!</p>
+      <p>I am also a cook and in my spare time I play billiards, scuba dive and travel!</p>
       <p>Professionally, I mostly work on full-stack web applications. Aside from my company I also work on freelance projects in my spare time. If there is something you would like to collaborate on - send me a message! You can find my contacts below.</p>
     </article>
 
     <article>
       <b>Projects</b>
       <div className="flex flex-wrap gap-2 justify-center md:justify-around">
-        <Project title="TCorvus" url="https://main.d12aaacbrok4tp.amplifyapp.com/">
+        <Project title="TCorvus" url={TCORVUS}>
           Social media platform built using NextJS and MongoDB. Key features include payments, authentication, account management, automated email notifications and image uploads to S3.
         </Project>
-        <Project title="personal-portfolio" url="https://fascinating-llama-8e5d96.netlify.app/">
+        <Project title="personal-portfolio" url={PORTFOLIO}>
           Simplistic personal site built with NextJS.
         </Project>
       </div>
@@ -48,9 +56,9 @@ export default function Home() {
 
     <article>
       <b>Contacts</b>
-      <Contact icon={GitHub} link="https://github.com/RodrigoKalvans" contact="RodrigoKalvans" />
-      <Contact icon={LinkedIn} link="https://www.linkedin.com/in/rodrigo-kalvans/" contact="rodrigo-kalvans" />
-      <Contact icon={Email} link="mailto:kalvans.rodrigo@gmail.com" contact="kalvans.rodrigo@gmail.com" />
+      <Contact icon={GitHub} link={GITHUB} contact="RodrigoKalvans" />
+      <Contact icon={LinkedIn} link={LINKEDIN} contact="rodrigo-kalvans" />
+      <Contact icon={Email} link={EMAIL} contact="kalvans.rodrigo@gmail.com" />
     </article>
 
     {/* <article>
