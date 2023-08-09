@@ -1,6 +1,5 @@
 // import axios from "axios";
 // import {Formik, Field, Form, ErrorMessage} from "formik";
-import {EMAIL} from "@/utils/const";
 import {useState} from "react";
 // import * as Yup from "yup";
 
@@ -100,7 +99,7 @@ export default function ContactForm() {
                 </Form>
             </Formik> */}
             <form
-                action={`https://formsubmit.co/${EMAIL!}`}
+                action={`https://formsubmit.co/${process.env.FORMSUBMIT_KEY!}`}
                 method="POST"
                 className="flex flex-col"
             >
