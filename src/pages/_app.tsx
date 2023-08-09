@@ -1,6 +1,13 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type {AppProps} from "next/app";
+import {Montserrat} from "next/font/google";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const font = Montserrat({subsets: ["latin"]});
+
+export default function App({Component, pageProps}: AppProps) {
+    return (
+        <main className={font.className}>
+            <Component {...pageProps} />
+        </main>
+    );
 }
