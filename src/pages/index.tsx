@@ -64,7 +64,11 @@ export default function Home() {
                         management, automated email notifications and image
                         uploads to S3.
                     </Project>
-                    <Project title="personal-portfolio" url={PORTFOLIO}>
+                    <Project
+                        title="personal-portfolio"
+                        url={PORTFOLIO}
+                        rel="cononical"
+                    >
                         Simplistic personal site built with NextJS.
                     </Project>
                 </div>
