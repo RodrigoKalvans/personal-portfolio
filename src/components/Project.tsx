@@ -8,15 +8,18 @@ type ProjectProps = {
     children: React.ReactNode;
 };
 
-export default function Project(props: ProjectProps) {
-    if (!props.rel) props.rel = "external";
-
+export default function Project({
+    title,
+    url,
+    rel = "external",
+    children,
+}: ProjectProps) {
     return (
-        <Link href={props.url} target="_blank" rel={props.rel}>
+        <Link href={url} target="_blank" rel={rel}>
             <section className="flex flex-col bg-black rounded-xl p-2 w-[20rem] aspect-square">
-                <b className="text-lg">{props.title}</b>
-                <div className="text-[0.6rem]">{props.url}</div>
-                <div className="mt-4">{props.children}</div>
+                <b className="text-lg">{title}</b>
+                <div className="text-[0.6rem]">{url}</div>
+                <div className="mt-4">{children}</div>
             </section>
         </Link>
     );

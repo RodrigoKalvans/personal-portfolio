@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import Project from "@/components/Project";
+import ContactForm from "@/components/ContactForm";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -10,7 +11,6 @@ import {
     AiFillLinkedin as LinkedIn,
     AiFillGithub as GitHub,
 } from "react-icons/ai";
-import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
     return (
@@ -37,10 +37,11 @@ export default function Home() {
             <article>
                 <b>Introduction</b>
                 <p>
-                    Hi, my name is Rodrigo Kalvans. I am a third-year Software
+                    Hi, my name is Rodrigo Kalvans. I am a fourth-year Software
                     Engineering student at Saxion University in Deventer,
-                    Netherlands. Currently I&apos;m working as a developer at a
-                    company called Heartland Finance in Amsterdam.
+                    Netherlands. Currently I&apos;m working as a software
+                    engineer and product developer at Heartland Finance in
+                    Amsterdam, Netherlands.
                 </p>
                 <p>
                     I am also a cook and in my spare time I play billiards,
@@ -76,14 +77,14 @@ export default function Home() {
 
             <article>
                 <b>Contacts</b>
-                <Contact icon={GitHub} link={GITHUB} contact="RodrigoKalvans" />
+                <Contact Icon={GitHub} link={GITHUB} contact="RodrigoKalvans" />
                 <Contact
-                    icon={LinkedIn}
+                    Icon={LinkedIn}
                     link={LINKEDIN}
                     contact="rodrigo-kalvans"
                 />
                 <Contact
-                    icon={Email}
+                    Icon={Email}
                     link={`mailto:${EMAIL}`}
                     contact={EMAIL}
                 />
