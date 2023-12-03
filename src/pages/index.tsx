@@ -1,8 +1,9 @@
+import Head from "next/head";
+import Image from "next/image";
 import Contact from "@/components/Contact";
 import Project from "@/components/Project";
 import ContactForm from "@/components/ContactForm";
-import Head from "next/head";
-import Image from "next/image";
+import Footer from "@/components/Footer";
 
 import {TCORVUS, PORTFOLIO, GITHUB, LINKEDIN, EMAIL} from "@/utils/const";
 
@@ -30,9 +31,17 @@ export default function Home() {
                 <b className="text-[1.75rem] md:text-[2rem]">Rodrigo Kalvans</b>
             </section>
 
-            {/* <article>
-                resume
-            </article> */}
+            <article>
+                <div className="flex justify-center">
+                    <a
+                        href="/resume.pdf"
+                        download={"rodrigo-kalvans-resume.pdf"}
+                        className="py-3 px-5 bg-purple-900 rounded-full"
+                    >
+                        Download my resume
+                    </a>
+                </div>
+            </article>
 
             <article>
                 <b>Introduction</b>
@@ -70,7 +79,7 @@ export default function Home() {
                         url={PORTFOLIO}
                         rel="cononical"
                     >
-                        Simplistic personal site built with NextJS.
+                        Simple personal site built with NextJS.
                     </Project>
                 </div>
             </article>
@@ -94,6 +103,8 @@ export default function Home() {
                 <b>Reach out directly!</b>
                 <ContactForm />
             </article>
+
+            <Footer />
         </>
     );
 }
