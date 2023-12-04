@@ -34,8 +34,8 @@ export default function Home() {
             <article>
                 <div className="flex justify-center">
                     <a
-                        href="/resume.pdf"
-                        download={"rodrigo-kalvans-resume.pdf"}
+                        href="/rodrigo-kalvans-resume.pdf"
+                        download={"resume"}
                         className="py-3 px-5 bg-purple-900 rounded-full"
                     >
                         Download my resume
