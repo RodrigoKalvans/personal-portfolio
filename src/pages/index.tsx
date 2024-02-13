@@ -47,21 +47,30 @@ export default function Home() {
                 <b>Introduction</b>
                 <p>
                     Hi, my name is Rodrigo Kalvans. I am a fourth-year Software
-                    Engineering student at Saxion University in Deventer,
-                    Netherlands. Currently I&apos;m working as a software
-                    engineer and product developer at Heartland Finance in
+                    Engineering student at Saxion University in the Netherlands.
+                    Currently working as a software engineer and product
+                    developer at a startup called Heartland Finance in
                     Amsterdam, Netherlands.
                 </p>
                 <p>
                     I am also a cook and in my spare time I play billiards,
-                    scuba dive and travel!
+                    scuba dive and travel. Most recently this took me to South
+                    America where I visited Peru and Colombia. From ocean to
+                    jungle to mountain; I went everywhere I could and even spent
+                    over a week camping out in the Amazon rainforest.
                 </p>
                 <p>
-                    Professionally, I mostly work on full-stack web
-                    applications. Aside from my company I also work on freelance
-                    projects in my spare time. If there is something you would
-                    like to collaborate on - send me a message! You can find my
-                    contacts below.
+                    While I may be an engineer in school and work, selling and
+                    negotiating are where I am most comfortable and adept. I
+                    understand the power of storytelling and empathy and how
+                    they can help motivate others. Because of this, I take on
+                    roles where I can practice these skills alongside
+                    engineering. Public speaking, pitching, debate and writing.
+                    I want to do it all.
+                </p>
+                <p>
+                    If you are thinking of reaching out - do not hesitate. My
+                    contact details are below
                 </p>
             </article>
 
@@ -99,10 +108,10 @@ export default function Home() {
                 />
             </article>
 
-            <article>
+            {/* <article>
                 <b>Reach out directly!</b>
                 <ContactForm />
-            </article>
+            </article> */}
 
             <Footer />
         </>

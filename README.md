@@ -27,3 +27,8 @@ Over time you can expect this site to grow and include more of whatever it is th
 # Changes
 * Fixed a bug in the email form that prevented emails from being sent
 * Added a button to download resume
+
+## V1.3
+# Changes
+* Rewrote bio
+* Disabled contact form until it is fixed
