@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Contact from "@/components/Contact";
 import Project from "@/components/Project";
-import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 import {TCORVUS, PORTFOLIO, GITHUB, LINKEDIN, EMAIL} from "@/utils/const";
