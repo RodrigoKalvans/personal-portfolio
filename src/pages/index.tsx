@@ -27,7 +27,9 @@ export default function Home() {
                     height={50}
                     className="md:[80px] aspect-square"
                 />
-                <b className="text-[1.75rem] md:text-[2rem]">Rodrigo Kalvans</b>
+                <h1 className="text-[1.75rem] md:text-[2rem]">
+                    Rodrigo Kalvans
+                </h1>
             </section>
 
             <article>
@@ -43,7 +45,7 @@ export default function Home() {
             </article>
 
             <article>
-                <b>Introduction</b>
+                <h1>Introduction</h1>
                 <p>
                     Hi, my name is Rodrigo Kalvans. I am a fourth-year Software
                     Engineering student at Saxion University in the Netherlands.
@@ -74,8 +76,8 @@ export default function Home() {
             </article>
 
             <article>
-                <b>Projects</b>
-                <div className="flex flex-wrap gap-2 justify-center md:justify-around">
+                <h1>Projects</h1>
+                <div className="flex flex-col gap-2 ">
                     <Project title="TCorvus" url={TCORVUS}>
                         Social media platform built using NextJS and MongoDB.
                         Key features include payments, authentication, account
@@ -93,7 +95,7 @@ export default function Home() {
             </article>
 
             <article>
-                <b>Contacts</b>
+                <h1>Contacts</h1>
                 <Contact Icon={GitHub} link={GITHUB} contact="RodrigoKalvans" />
                 <Contact
                     Icon={LinkedIn}
@@ -108,7 +110,7 @@ export default function Home() {
             </article>
 
             {/* <article>
-                <b>Reach out directly!</b>
+                <h1>Reach out directly!</h1>
                 <ContactForm />
             </article> */}
 

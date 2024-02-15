@@ -32,3 +32,7 @@ Over time you can expect this site to grow and include more of whatever it is th
 # Changes
 * Rewrote bio
 * Disabled contact form until it is fixed
+
+## V1.4
+# Changes
+* Restyled projects
