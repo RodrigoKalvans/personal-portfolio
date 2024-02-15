@@ -36,3 +36,9 @@ Over time you can expect this site to grow and include more of whatever it is th
 ## V1.4
 # Changes
 * Restyled projects
+
+## V1.5
+# Changes
+* Added reading section
+* Added Conneqt to projects section
+

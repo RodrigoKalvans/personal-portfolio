@@ -4,12 +4,21 @@ import Contact from "@/components/Contact";
 import Project from "@/components/Project";
 import Footer from "@/components/Footer";
 
-import {TCORVUS, PORTFOLIO, GITHUB, LINKEDIN, EMAIL} from "@/utils/const";
+import {
+    TCORVUS,
+    PORTFOLIO,
+    GITHUB,
+    GOODREADS,
+    LINKEDIN,
+    EMAIL,
+    CONNEQT,
+} from "@/utils/const";
 
 import {
     AiOutlineMail as Email,
     AiFillLinkedin as LinkedIn,
     AiFillGithub as GitHub,
+    AiOutlineBook as Goodreads,
 } from "react-icons/ai";
 
 export default function Home() {
@@ -55,10 +64,10 @@ export default function Home() {
                 </p>
                 <p>
                     I am also a cook and in my spare time I play billiards,
-                    scuba dive and travel. Most recently this took me to South
-                    America where I visited Peru and Colombia. From ocean to
-                    jungle to mountain; I went everywhere I could and even spent
-                    over a week camping out in the Amazon rainforest.
+                    scuba dive, travel and read. Most recently this took me to
+                    South America where I visited Peru and Colombia. From ocean
+                    to jungle to mountain; I went everywhere I could and even
+                    spent over a week camping out in the Amazon rainforest.
                 </p>
                 <p>
                     While I may be an engineer in school and work, selling and
@@ -84,6 +93,12 @@ export default function Home() {
                         management, automated email notifications and image
                         uploads to S3.
                     </Project>
+                    <Project title="Conneqt Mobile" url={CONNEQT}>
+                        Together with 4 other students, we built a mobile port
+                        of the Conneqt app for Epartment. The project was 8
+                        weeks long and included planning, application design and
+                        the final implementation.
+                    </Project>
                     <Project
                         title="personal-portfolio"
                         url={PORTFOLIO}
@@ -107,6 +122,19 @@ export default function Home() {
                     link={`mailto:${EMAIL}`}
                     contact={EMAIL}
                 />
+            </article>
+
+            <article>
+                <h1>What am I reading?</h1>
+                <p className="flex flex-row gap-2">
+                    Find my reading lists here:
+                    <Contact
+                        Icon={Goodreads}
+                        link={GOODREADS}
+                        contact="Rodrigo Kalvans"
+                    />
+                </p>
+                <p>Have any book recommendation? Please let me know.</p>
             </article>
 
             {/* <article>
