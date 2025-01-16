@@ -42,3 +42,6 @@ Over time you can expect this site to grow and include more of whatever it is th
 * Added reading section
 * Added Conneqt to projects section
 
+## V1.6
+# Changes
+* Preparing for version 2.0

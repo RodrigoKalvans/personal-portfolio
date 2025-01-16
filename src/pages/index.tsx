@@ -28,7 +28,16 @@ export default function Home() {
                 <title>Rodrigo Kalvans</title>
             </Head>
 
-            <section className="flex flex-row gap-4 md:gap-8 justify-center items-center sticky">
+            <div className="flex flex-col md:gap-2 justify-center items-center sticky -mt-[2rem] mb-[2rem] border-b-2">
+                <h2 className="text-[1.25rem] md:text-[1.5rem] flex flex-col justify-center items-center">
+                    A complete redo of this page is in the works.
+                </h2>
+                <h1 className="mb-[0.5rem]">
+                    Stay tuned!
+                </h1>
+            </div>
+
+            <div className="flex flex-row gap-4 md:gap-8 justify-center items-center sticky">
                 <Image
                     src="/icon.png"
                     alt="icon"
@@ -39,7 +48,7 @@ export default function Home() {
                 <h1 className="text-[1.75rem] md:text-[2rem]">
                     Rodrigo Kalvans
                 </h1>
-            </section>
+            </div>
 
             <article>
                 <div className="flex justify-center">
