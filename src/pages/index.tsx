@@ -32,9 +32,7 @@ export default function Home() {
                 <h2 className="text-[1.25rem] md:text-[1.5rem] flex flex-col justify-center items-center">
                     A complete redo of this page is in the works.
                 </h2>
-                <h1 className="mb-[0.5rem]">
-                    Stay tuned!
-                </h1>
+                <h1 className="mb-[0.5rem]">Stay tuned!</h1>
             </div>
 
             <div className="flex flex-row gap-4 md:gap-8 justify-center items-center sticky">
