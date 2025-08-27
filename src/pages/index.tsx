@@ -12,7 +12,7 @@ import {
     LINKEDIN,
     EMAIL,
     CONNEQT,
-} from "@/utils/const";
+} from "@/utils/constants";
 
 import {
     AiOutlineMail as Email,
@@ -27,13 +27,6 @@ export default function Home() {
             <Head>
                 <title>Rodrigo Kalvans</title>
             </Head>
-
-            <div className="flex flex-col md:gap-2 justify-center items-center sticky -mt-[2rem] mb-[2rem] border-b-2">
-                <h2 className="text-[1.25rem] md:text-[1.5rem] flex flex-col justify-center items-center">
-                    A complete redo of this page is in the works.
-                </h2>
-                <h1 className="mb-[0.5rem]">Stay tuned!</h1>
-            </div>
 
             <div className="flex flex-row gap-4 md:gap-8 justify-center items-center sticky">
                 <Image
@@ -133,21 +126,16 @@ export default function Home() {
 
             <article>
                 <h1>What am I reading?</h1>
-                <p className="flex flex-row gap-2">
+                <div className="flex flex-row gap-2">
                     Find my reading lists here:
                     <Contact
                         Icon={Goodreads}
                         link={GOODREADS}
                         contact="Rodrigo Kalvans"
                     />
-                </p>
+                </div>
                 <p>Have any book recommendation? Please let me know.</p>
             </article>
-
-            {/* <article>
-                <h1>Reach out directly!</h1>
-                <ContactForm />
-            </article> */}
 
             <Footer />
         </>
