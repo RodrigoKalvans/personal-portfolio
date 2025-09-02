@@ -40,7 +40,6 @@ Over time you can expect this site to grow and include more of whatever it is th
 * Preparing for version 2.0
 
 ## V2.0
-# Changes
 * Redid the overall layout and design
 * Shortened bio
 * Added education and split projects section into 2 (experience & projects)
