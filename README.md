@@ -7,7 +7,6 @@ Over time you can expect this site to grow and include more of whatever it is th
 ### Versions
 
 ## V1.0
-# Changes
 * Made initial design
 * Added a header
 * Added Introduction
@@ -15,7 +14,6 @@ Over time you can expect this site to grow and include more of whatever it is th
 * Added Contacts
 
 ## V1.1
-# Changes
 * Added linting and formatting
 * Added a contact form
 * Added a footer
@@ -24,26 +22,21 @@ Over time you can expect this site to grow and include more of whatever it is th
 * Added changelog to README
 
 ## V1.2
-# Changes
 * Fixed a bug in the email form that prevented emails from being sent
 * Added a button to download resume
 
 ## V1.3
-# Changes
 * Rewrote bio
 * Disabled contact form until it is fixed
 
 ## V1.4
-# Changes
 * Restyled projects
 
 ## V1.5
-# Changes
 * Added reading section
 * Added Conneqt to projects section
 
 ## V1.6
-# Changes
 * Preparing for version 2.0
 
 ## V2.0
