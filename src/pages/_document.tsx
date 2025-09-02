@@ -4,8 +4,8 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head />
-            <body>
-                <main className="max-w-[720px] mx-auto mt-8 md:mt-14 relative">
+            <body className="bg-[#22223b]">
+                <main className="max-w-[720px] mx-auto mt-4 md:mt-8 relative">
                     <Main />
                     <NextScript />
                 </main>
